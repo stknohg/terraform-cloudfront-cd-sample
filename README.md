@@ -2,6 +2,12 @@
 
 TerraformでCloudFrontの継続的デプロイを試すためのサンプルです。
 
+## 構成図
+
+このサンプルを実行すると下図の環境を作成できます。  
+
+![Diagram](/diagram.png)
+
 ## 前提条件
 
 * Terraform 1.7+
