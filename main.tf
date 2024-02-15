@@ -26,7 +26,7 @@ module "cloudfront" {
   // Origin configurations
   origin_bucket_id = module.s3.bucket_id
   origin_bucket_arn = module.s3.bucket_arn
-  origin_bucket_domain_name = module.s3.bucket_domain_name
+  origin_bucket_domain_name = module.s3.bucket_regional_domain_name
   // Header configrations
   staging_header_suffix = "sample"
   staging_header_value = "true"
